@@ -11,8 +11,19 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //stomach
+ellipse (200,275,180,175);
 
+//body
+fill (0,0,0,0);
+ellipse (200,215,250,300);
+
+//smile
+arc(200,160,20,15,radians(0),radians(180));
+
+//paws
+rotate(.4)
+rect(140,150,45,100)
   
 
 }
